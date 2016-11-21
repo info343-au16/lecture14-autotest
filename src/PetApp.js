@@ -106,7 +106,7 @@ class DogList extends React.Component {
 
     return (
       <div>
-        <h2>Dogs for Adoption</h2>
+        <h2>Dogs to Adopt</h2>
         <div className="input-group">
           <label htmlFor="searchTerm" className="input-group-addon"><i className="glyphicon glyphicon-search" aria-label="Search"></i></label>
           <input type="text" id="searchTerm" className="form-control" placeholder="Search for breed, sex, or name" onChange={(e) => this.searchDogs(e.target.value)}/>
